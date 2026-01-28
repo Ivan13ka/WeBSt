@@ -45,19 +45,31 @@
     padding-top: 94px;
     padding-bottom: 94px;
 }
+.features-title {
+  display: flex;
+  flex-wrap: wrap;
+}
 .features-list{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
-.features-title{
-    display: flex;
-    font-size: 20px
+.features-list-item::before{
+    background-image: url("./img/Group\ 1.jpg"), url("./img/Group\ 2.jpg"), url("./img/Group\ 3.jpg"),
+    url("./img/Group\ 4.jpg")
+
     
-}
-.features-list-item{
-    display: flex;
-    justify-content: space-between;
     
+    
+    
+    ;
 }
+
+   
+
+    
+
 
 .work-title{
     display: flex;
@@ -106,3 +118,4 @@
 .team-item-img{
     height: 300px;
 }
+

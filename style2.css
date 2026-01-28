@@ -41,3 +41,8 @@ body {
   height: 404px;
   max-width: 370px;
 }
+
+.img1::before{
+  position: relative;
+  background-image: url("C:\Users\Koteniatko\Documents\Frontend\GitHub\WeBSt\img\img.jpg");
+}
