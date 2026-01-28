@@ -17,13 +17,40 @@
   margin: 0 auto;
   padding: 0px 15px;
 }
-.hero-title-button{
-    flex-wrap: wrap;
+
+.hero{
+    height: 600px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+    ),
+    url("./img/image-web.jpg");
+
+    background-size: cover;
+    background-position: center;
+    display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #2196F3;
-     line-height: 1,87px;
+    text-align: center;
 }
+
+.hero h1{
+    color: #FFFFFF;
+    font-size: 44px;
+    line-height: 1.36;
+    margin-bottom: 30px;
+}
+.hero-btn{
+    background-color: #2196F3;
+    color: #FFFFFF;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+.hero-btn:hover{
+    background-color: #188ce8;
+}
+
 .logo{
     display: flex;
     justify-content: flex-start;
